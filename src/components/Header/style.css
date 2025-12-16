@@ -23,6 +23,10 @@
   line-height: 100%;
   letter-spacing: 0%;
   color: #1b1b1d;
+  transition: 500ms;
+}
+.header ul li a:hover{
+    color: #1b1b1d81;
 }
 .header .gift .savatlogo {
   background-color: #fff;
@@ -42,4 +46,35 @@
   box-shadow: 0px 30px 60px 0px #a3a8b226;
   padding: 15px 30px;
   border-radius: 63px;
+  transition: 500ms;
+}
+.header .gift a:hover{
+    background-color: #1b1b1d81;
+}
+
+@media (max-width:900px) {
+  .header ul li a{
+    font-size: clamp(10px 2vw 15px);
+  }
+  .header .gift a{
+    padding: 10px 20px;
+  }
+}
+@media (max-width:850px) {
+  .header{
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 30px;
+  }
+  
+}
+@media (max-width:550px) {
+  .header ul li{
+    display: none;
+  }
+  .header{
+    gap: 10px;
+  }
+  
 }

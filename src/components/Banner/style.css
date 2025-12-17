@@ -1,0 +1,109 @@
+.banner {
+  display: flex;
+  background-color: #eeeff1;
+  height: calc(100vh - 100px);
+  align-items: center;
+  justify-content: center;
+}
+.banner .left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.banner .left h1 {
+  font-family: Jost;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 124px;
+  line-height: 140px;
+  letter-spacing: 0%;
+  color: #1b1b1d;
+}
+.banner .left p {
+  font-family: Jost;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #64646a;
+  width: 60%;
+}
+.banner .links{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.banner .left .links a:nth-child(1) {
+  font-family: Jost;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #1b1b1d;
+  padding: 20px 40px;
+  border-radius: 126px;
+  transition: 400ms;
+  display: inline-block;
+}
+.banner .links a:nth-child(2){
+    font-family: Jost;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: #1B1B1D;
+transition: 400ms;
+}
+.banner .links a:nth-child(2):hover{
+    color: #1b1b1d7d;
+}
+.banner .left .links a:nth-child(1):hover{
+    background-color: #1b1b1dab;
+}
+.banner .right img{
+    width: 95%;
+}
+@media (max-width:1200px) {
+    .banner .left h1{
+        font-size: 88px;
+        letter-spacing: normal;
+        line-height:99%;
+    }
+    .banner {
+        height: auto;
+    }
+    .banner .left p{
+        font-size: 20px;
+    }
+    .banner .left .links .applink a{
+        padding: 15px 30px;
+    }
+}
+@media (max-width:800px) {
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+        height: auto;
+        padding: 30px 0;
+    }
+    .banner .left{
+        align-items: center;
+    }
+}
+@media (max-width:500px) {
+    .banner .left h1{
+        font-size: 62px;
+    }
+    .banner .left p{
+        font-size: 18px;
+    }
+    .banner .left .links a:nth-child(1){
+        padding: 15px 25px;
+    }
+}

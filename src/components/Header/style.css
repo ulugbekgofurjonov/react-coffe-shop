@@ -48,7 +48,7 @@
   border-radius: 63px;
   transition: 500ms;
 }
-.header .gift a:hover{
+.header .gift a:nth-child(2):hover{
     background-color: #1b1b1d81;
 }
 

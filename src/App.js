@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Explore from './components/Explore';
+import Favourite from './components/Favourite';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Banner/>
       <Explore/>
+      <Favourite/>
     </div>
   );
 }

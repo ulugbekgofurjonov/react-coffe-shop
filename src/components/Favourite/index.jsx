@@ -8,7 +8,7 @@ const Favourite = () => {
         <img src="./images/favouritebg.png" alt="" />
       </div>
       <div className="right">
-        <h2>Order Your Favourite Coffee</h2>
+        <h2>Order Your <br /> Favourite Coffee</h2>
         <p>
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation

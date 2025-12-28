@@ -1,0 +1,102 @@
+.selling {
+  padding: 80px 0;
+}
+.selling h2 {
+  font-family: Jost;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #1b1b1d;
+  margin-bottom: 10px;
+}
+.selling .topP {
+  font-family: Jost;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #64646a;
+  width: 50%;
+  margin: auto;
+}
+.selling .wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.selling .wrap .box {
+  box-shadow: 0px 20px 60px 0px #a3a8b226;
+  padding: 20px 10px;
+  width: calc(100% / 4);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.selling .wrap .box .top {
+  display: flex;
+  align-items: center;
+}
+.selling .wrap .box .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.selling .box span {
+  font-family: Jost;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #64646a;
+}
+.selling .box h4 {
+  font-family: Jost;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #1b1b1d;
+}
+.selling .box p {
+  font-family: Jost;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #64646a;
+}
+.selling .box h5 {
+  font-family: Jost;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 30px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #1b1b1d;
+}
+.selling .box a {
+  font-family: Jost;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 126px;
+  padding: 10px 25px;
+  background-color: #1b1b1d;
+  transition: all 0.3s ease;
+}
+.selling .box a:hover {
+  background-color: #64646a;
+}

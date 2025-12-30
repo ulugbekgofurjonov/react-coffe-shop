@@ -4,16 +4,17 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import Explore from './components/Explore';
 import Favourite from './components/Favourite';
-import SellingCoffe from './components/SellingCoffe';
+import Instant from './components/Instant';
+
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <Banner/>
-      <Explore/>
       <Favourite/>
-      <SellingCoffe/>
+      <Explore/>
+      <Instant/>
     </div>
   );
 }

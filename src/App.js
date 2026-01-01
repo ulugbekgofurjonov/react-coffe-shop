@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import Explore from './components/Explore';
 import Favourite from './components/Favourite';
 import Instant from './components/Instant';
+import Customers from './components/Customers';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Favourite/>
       <Explore/>
       <Instant/>
+      <Customers/>
     </div>
   );
 }

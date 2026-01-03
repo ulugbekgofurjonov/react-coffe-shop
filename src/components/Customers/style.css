@@ -1,0 +1,90 @@
+.customers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+.customers .left,
+.customers .right {
+  width: 50%;
+}
+.customers .box {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  background: linear-gradient(
+    142.42deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 0px 20px 60px 0px #a3a8b226;
+  padding: 0 0 40px 0;
+}
+.customers .box img:nth-child(1) {
+  width: 100%;
+}
+.customers .box .texts {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+.customers h4 {
+  font-family: Jost;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #1b1b1d;
+}
+.customers .left .box p {
+  font-family: Jost;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #1b1b1d;
+  width: 80%;
+}
+.customers .right h3 {
+  font-family: Jost;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: 0%;
+  color: #1b1b1d;
+}
+.customers .right h5{
+    font-family: Jost;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #1B1B1D;
+}
+.customers .right .item span{
+    font-family: Jost;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #64646A;
+}
+.customers .right .item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.customers .right .item .rightt{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}

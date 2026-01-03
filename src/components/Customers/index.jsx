@@ -1,4 +1,5 @@
 import React from "react";
+import './style.css'
 
 const Customers = () => {
   return (
@@ -19,12 +20,12 @@ const Customers = () => {
         </div>
       </div>
       <div className="right">
-        <h3>What Our Customers Say</h3>
+        <h3>What Our <br /> Customers Say</h3>
         <div className="item">
-            <div className="left">
+            <div className="leftt">
                 <h5>4.9</h5>
             </div>
-            <div className="right">
+            <div className="rightt">
                 <img src="./images/stars.png" alt="" />
                 <span>based on 2452+ reviews</span>
             </div>

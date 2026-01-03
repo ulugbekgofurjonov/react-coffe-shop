@@ -88,3 +88,33 @@
     align-items: start;
     flex-direction: column;
 }
+
+
+@media (max-width: 850px) {
+  .customers {
+    flex-direction: column;
+    padding: 40px 0;
+  }
+  .customers .left,
+  .customers .right {
+    width: 100%;
+  }
+  .customers .box {
+    width: 90%;
+  }
+  .customers .right h3 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .customers .right h5 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .customers .right{
+    text-align: center;
+  }
+  .customers .right .item{
+    align-items: center;
+    justify-content: center;
+  }
+}

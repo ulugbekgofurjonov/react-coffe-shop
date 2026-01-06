@@ -6,6 +6,7 @@ import Explore from './components/Explore';
 import Favourite from './components/Favourite';
 import Instant from './components/Instant';
 import Customers from './components/Customers';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Explore/>
       <Instant/>
       <Customers/>
+      <Contact/>
     </div>
   );
 }

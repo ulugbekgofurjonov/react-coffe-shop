@@ -7,6 +7,7 @@ import Favourite from './components/Favourite';
 import Instant from './components/Instant';
 import Customers from './components/Customers';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Instant/>
       <Customers/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

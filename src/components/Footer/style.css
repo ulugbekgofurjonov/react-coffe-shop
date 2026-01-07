@@ -1,0 +1,73 @@
+.footer {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .left h3 {
+  font-family: Jost;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  color: #1b1b1d;
+}
+.footer .right h3 {
+  font-family: Jost;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  color: #1b1b1d;
+}
+.footer .left p {
+  font-family: Jost;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  color: #64646a;
+  width: 60%;
+}
+.footer form {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer form input {
+  box-shadow: 0px 12px 30px 0px #cdd1d647;
+  border: none;
+  border-radius: 65px;
+  padding: 15px;
+}
+.footer form input ::placeholder {
+  font-family: Jost;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #64646a;
+}
+.footer form button {
+  font-family: Jost;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #1b1b1d;
+  padding: 10px 20px;
+  border-radius: 126px;
+  transition: 400ms;
+  border: none;
+}
+.footer form button:hover {
+  background-color: #333335;
+  cursor: pointer;
+}
